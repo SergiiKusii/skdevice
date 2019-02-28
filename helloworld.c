@@ -4,6 +4,7 @@
 
 static int __init helloworld_init(void) {
     pr_info("Hello world!\n");
+    
     return 0;
 }
 
@@ -14,5 +15,6 @@ static void __exit helloworld_exit(void) {
 module_init(helloworld_init);
 module_exit(helloworld_exit);
 
-MODULE_AUTHOR("John Madieu <john.madieu@gmail.com>");
+MODULE_AUTHOR("Sergii Kusii <sergii.kusii@gmail.com>");
 MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Hello, world! Module");
