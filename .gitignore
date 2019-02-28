@@ -1,0 +1,11 @@
+/.cache.mk
+/.helloworld.ko.cmd
+/.helloworld.mod.o.cmd
+/.helloworld.o.cmd
+/Module.symvers
+/helloworld.ko
+/helloworld.mod.c
+/helloworld.mod.o
+/helloworld.o
+/modules.order
+.tmp_versions/
